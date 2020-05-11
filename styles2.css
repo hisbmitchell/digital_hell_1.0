@@ -133,7 +133,6 @@ ul {
     padding: 0;
     position: fixed;
     margin-top: -4%;
-
 }
 
 #main-img {
@@ -142,30 +141,72 @@ ul {
     margin-left: 10%;
     margin-top: 3%;
     max-height: 70%;
-
 }
 
 #digital-hell {
   margin-top: 20%;
 }
 
+
+.sidenav2 {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 3%;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-top: 5%;
+    padding-right: 2%;
+    margin-top: 10%;
+    /* background-image: url("assets/slime.jpg"); */
+
+}
+
+.sidenav2 p{
+    font-family: BaiJamjureeLight;
+    padding-right: 0;
+    padding-left: 30%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+    color: white;
+}
+
+
+.sidenav2 a{
+    font-family: BaiJamjureeLight;
+    padding-right: 0;
+    padding-left: 30%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+    color: white;
+}
+
+.sidenav2 a:hover {
+    color: blue;
+}
+
+.sidenav2 a:active {
+    color: blue;
+}
+
+
 @media (max-width: 800px) {
 
   #digital-hell {
     display: block;
     width:95%;
-
     margin-top: auto;
     vertical-align: middle;  /* vertical alignment of the inline element */
     height: 100%;
     animation: infinite;
     animation-name: move;
     animation-duration: 20s ;
-
   }
-
-
-
 
 @keyframes move {
 0%   {margin-top: 15%;}
