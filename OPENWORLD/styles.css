@@ -48,7 +48,8 @@ iframe {
     margin-right: auto;
     margin-left: auto;
     padding: 2%;
-    text-align: center;
+    margin-bottom: 3%;
+   text-align: center;
     display: block;
 }
 
@@ -297,7 +298,7 @@ a:-webkit-any-link {
    .sidenav2 {
      top:0px;
      z-index: 1;
-     width: 95%;
+     width: 100%;
      position: fixed;
      background-color: black;
 
