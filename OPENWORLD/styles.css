@@ -9,10 +9,15 @@
     font-family: Chicago;
     src: url("assets/Chicago.ttf");
 }
+    
+  html, body {
+    overflow-x: hidden;
+}
+
 
 body {
   background-image: url("assets/starryBG.gif");
-
+  position: relative
 }
 
 p {
